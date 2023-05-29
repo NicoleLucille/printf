@@ -39,7 +39,7 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 
 /**
  * is_digit - Verifies if a char is a digit
- * @c: Char to evaluate
+ * @c: Char to be evaluated
  *
  * Return: 1 if c is a digit, 0 otherwise
  */
@@ -52,9 +52,9 @@ int is_digit(char c)
 }
 
 /**
- * convert_size_number - Casts a number to specified size
+ * convert_size_number - Casts a number to the specified size
  * @num: Number to cast
- * @size: Number indicating type to cast
+ * @size: Number indicating the type to cast
  *
  * Return: casted value of num
  */
@@ -69,9 +69,9 @@ long int convert_size_number(long int num, int size)
 }
 
 /**
- * convert_size_unsgnd - Casts a number to specified size
+ * convert_size_unsgnd - Casts a number to the specified size
  * @num: Number to cast
- * @size: Number indicating type to cast
+ * @size: Number indicating the type to cast
  *
  * Return: casted value of num
  */
