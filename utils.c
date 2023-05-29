@@ -2,7 +2,7 @@
 
 /**
  * is_printable - Evaluates if a char is printable
- * @c: char to be evaluated
+ * @c: Char to be evaluated
  *
  * Return: 1 if c is printable, 0 otherwise
  */
@@ -16,8 +16,8 @@ int is_printable(char c)
 
 /**
  * append_hexa_code - Append ascci in hexadecimal code to buffer
- * @buffer: array of chars
- * @i: start of appending
+ * @buffer: Array of chars
+ * @i: Start of appending
  * @ascii_code: ASSCI CODE
  * Return: Always 3
  */
@@ -56,7 +56,7 @@ int is_digit(char c)
  * @num: Number to cast
  * @size: Number indicating the type to cast
  *
- * Return: casted value of num
+ * Return: Casted value of num
  */
 long int convert_size_number(long int num, int size)
 {
@@ -73,7 +73,7 @@ long int convert_size_number(long int num, int size)
  * @num: Number to cast
  * @size: Number indicating the type to cast
  *
- * Return: casted value of num
+ * Return: Casted value of num
  */
 long int convert_size_unsgnd(unsigned long int num, int size)
 {
